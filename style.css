@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: antiquewhite;
+}
+.after-heading{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    min-height: 100vh;
+    min-width: 100vh;
+    
+}
+#heading{
+    text-align: center;
+    background-color: aquamarine;
+    color: black;
+    padding: 10px;
+}
+img:hover{
+    border: 5px solid rgb(8, 195, 195);
+    cursor: pointer;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.img-container{
+    display: flex;
+    gap: 50px;
+    min-width: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.score-card{
+    display: flex;
+    margin-top: 80px;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.user-score{
+    display: inline-block;
+    margin-left: 30px;
+    gap: 20px;
+}
+.com-score{
+    display: inline-block;
+    gap: 20px;
+    
+}
+p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+#msg{
+    text-align: center;
+    margin-top: 50px;
+    color: crimson;
+    background-color: antiquewhite;
+}
+.winner{
+    background-color: rgb(169, 245, 94);
+}
